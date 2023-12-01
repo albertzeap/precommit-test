@@ -1,0 +1,24 @@
+{
+  "name": "precommit-test",
+  "version": "1.0.0",
+  "description": "A small test for precommit hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "eslint": "eslint ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm eslint"
+    }
+  },
+  "keywords": [
+    "precommit"
+  ],
+  "author": "Albert Paez",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.54.0"
+  }
+}
