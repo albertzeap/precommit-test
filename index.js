@@ -6,6 +6,7 @@ function add(a, b) {
   
   console.log("Sum:", add(1, 2));
   console.log("Sum:", add(1, 2));
+  console.log("Sum:", add(1, 2));
   
   
   // Variables declared but never used
