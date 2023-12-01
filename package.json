@@ -20,5 +20,8 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.54.0"
+  },
+  "dependencies": {
+    "husky": "^8.0.3"
   }
 }
