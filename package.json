@@ -6,11 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "eslint": "eslint ."
+    "eslint": "eslint .",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm eslint"
+      "pre-commit": "npm run eslint"
     }
   },
   "keywords": [
@@ -19,9 +20,7 @@
   "author": "Albert Paez",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.54.0"
-  },
-  "dependencies": {
+    "eslint": "^8.54.0",
     "husky": "^8.0.3"
   }
 }
